@@ -19,6 +19,7 @@ shinyUI(
             )
         ),
         dashboardBody(
+            tsui::use_pop(),
             tabItems(
               
               
